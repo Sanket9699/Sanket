@@ -1,0 +1,27 @@
+.container{
+    border: 2px solid;
+    height:700px;
+    width:1500px;
+    background-color: blue;
+}
+.item{
+     border: 2px solid;
+    height: 70px;
+    width: 70px;
+   background-color:red;
+    border-radius: 50%;
+    position:relative;
+    top: 625px;
+    bottom: 0%;
+    left: 0%;
+    animation: animateX 3s linear alternate infinite, animateY 1s ease-in infinite alternate  ;
+} 
+
+@keyframes animateX {
+  from{left: 0%;}
+   to {left: 94%;}
+}
+@keyframes animateY {
+    from{top: 0%;}
+    to{top: 90%;}
+}
